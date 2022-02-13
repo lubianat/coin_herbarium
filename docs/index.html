@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Coin Herbarium</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #67c984;">
+            <a class="navbar-brand" href="#">Tiago's Coin Herbarium</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <div class="alert alert-warning" style="text-align: center" role="alert">
+            Website under construction!
+        </div>
+        <h3 class="mt-5">Tiago's Coin Herbarium</h1>
+            <p class="lead">
+                This personal world coin collection is a shameless
+                attempt to replicate the amazing <a href="coinzoo.net">Daniel's Coin Zoo</a>,
+                but for coins depicting different plants. I'll be collecting circulating coin types featuring plants in
+                the
+                reverse or obverse.
+            </p>
+            <p class="lead">
+                I'll be using and improving <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>'s
+                structured content on coin types, and try to keep the website maintenance as simple as possible.
+                For that, I intend to use <a href="https://en.numista.com/">Numista</a> to manage the collection and the
+                <a href="https://en.numista.com/api/doc/index.php">Numista's API</a> for retrieving the data. Then, I'll
+                be
+                displaying the information from the coins via Wikidata SPARQL queries. Have fun!
+            </p>
+
+            <h3>All coins catalogued on Wikidata depicting plants:</h3>
+            <column>
+                <iframe class="responsive-iframe" style="width: 90vw; height: 100vh; border: none;"
+                    src="https://query.wikidata.org/embed.html#%23title%3A%20All%20coins%20depicting%20plants%0A%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%0A%28IRI%28CONCAT%28%22https%3A%2F%2Fen.numista.com%2Fcatalogue%2Ftype%22%2C%3Fnumista_id%2C%20%22.html%22%29%29%20as%20%3Fid%29%0A%3Fbound_status%20%0A%3Fcountry%20%3FcountryLabel%20%20%20%20%0A%3Fimage_to_show%20%0A%3Fwhatever%20%3FwhateverLabel%20%0A%3Fcoin%20%3FcoinLabel%20%0AWITH%20%7B%0ASELECT%20%0A%2a%0AWHERE%20%7B%0A%3Fcoin%20wdt%3AP279%20wd%3AQ41207%20.%0A%3Fcoin%20wdt%3AP180%20%3Fwhatever%20.%20%20%0A%7B%3Fwhatever%20wdt%3AP31%20wd%3AQ16521%20.%20%7D%0AUNION%0A%7B%3Fwhatever%20wdt%3AP31%20wd%3AQ55983715%20.%20%7D%20%0A%7D%0A%7D%0AAS%20%25results%20%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20%20%3Fwhatever%20wdt%3AP171%2a%20wd%3AQ756%20.%0A%20%20%20hint%3APrior%20hint%3Agearing%20%22forward%22.%0A%20%20OPTIONAL%7B%3Fcoin%20wdt%3AP17%20%3Fcountry%20.%7D%0A%20%20OPTIONAL%7B%3Fcoin%20wdt%3AP18%20%3Fpic%20.%7D%0A%20%20OPTIONAL%7B%3Fcoin%20wdt%3AP10205%20%3Fnumista_id%20.%7D%0A%20%20%0A%20%20%0A%20%20BIND%20%28%20IF%20%28BOUND%20%28%3Fpic%29%2C%20%22%22%2C%20%22coin%20image%20unavailable%22%29%20%20as%20%3Fbound_status%20%20%29%20.%0A%20%20%7B%3Fcoin%20wdt%3AP18%20%3Fpic%20.%0A%20%20wd%3AQ23444%20wdt%3AP18%20%3Fwhite%20.%20%0A%20%20BIND%28COALESCE%28%3Fpic%2C%20%20%3Fwhite%29%20AS%20%3Fimage_to_show%29%7D%0A%20%20UNION%0A%20%20%7B%3Fwhatever%20wdt%3AP18%20%3Fimage_to_show%20.%7D%0A%20%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AORDER%20BY%20%3Fbound_status%20%3Fwhatever%20%3Fcoin%20"
+                    referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+            </column>
+            <p> Some countries do not allow reproduction of coin images under open licenses. Others do allow, but
+                information is not on Wikidata yet.
+                Both of these pictures are currently not shown. See <a
+                    href="https://commons.wikimedia.org/wiki/Commons:Currency">Commons:Currency</a>
+                for image licensing details.</p>
+
+
+            <div class="alert alert-warning" style="text-align: center" role="alert">
+                Website under construction!
+            </div>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Done with love by Tiago Lubiana.
+                Source code <a href="https://github.com/lubianat/coin_herbarium">here</a>.
+                All content by me is in the public domain (<a
+                    href="https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR">CC0</a>).</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
