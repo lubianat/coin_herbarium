@@ -64,17 +64,14 @@ with open("docs/all.html", "w") as f:
     f.write(webpage)
 
 with open("docs/index.html.jinja") as f:
-    home_string = f.read()
+    page_template_string = f.read()
 
-webpage = (
-    Environment(loader=FileSystemLoader("docs/"))
-    .from_string(home_string)
-    .render(
-        plant_family_name="all plants",
-        collected_coins_query=render_url(collected_coins_query),
-        missing_coins_query=render_url(missing_coins_query),
-    )
+page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
+    page_template_string
 )
+
+webpage = page_template.render()
+
 
 with open("docs/index.html", "w") as f:
     f.write(webpage)
