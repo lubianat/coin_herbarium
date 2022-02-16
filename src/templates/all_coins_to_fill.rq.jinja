@@ -15,7 +15,6 @@ VALUES ?numista_id {
    "{{coin.coin.id}}"
 {%- endfor -%}}
 ?coin wdt:P10205 ?numista_id .
-
 ?coin wdt:P180 ?whatever .  
 {?whatever wdt:P31 wd:Q16521 . }
 UNION
@@ -29,14 +28,9 @@ WHERE {
    hint:Prior hint:gearing "forward".
   OPTIONAL{?coin wdt:P17 ?country .}
   OPTIONAL{?coin wdt:P18 ?pic .}
-  
   BIND ( IF (BOUND (?pic), "", "coin image unavailable")  as ?bound_status  ) .
-  {?coin wdt:P18 ?pic .
   wd:Q23444 wdt:P18 ?white . 
-  BIND(COALESCE(?pic,  ?white) AS ?image_to_show)}
-  UNION
-  {?whatever wdt:P18 ?image_to_show .}
-  
+  BIND(COALESCE(?pic,  ?white) AS ?image_to_show) 
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }
 ORDER BY ?bound_status ?whatever ?coin 

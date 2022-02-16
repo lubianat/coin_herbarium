@@ -24,13 +24,9 @@ WHERE {
    hint:Prior hint:gearing "forward".
   OPTIONAL{?coin wdt:P17 ?country .}
   OPTIONAL{?coin wdt:P18 ?pic .}
-  
   BIND ( IF (BOUND (?pic), "", "coin image unavailable")  as ?bound_status  ) .
-  {?coin wdt:P18 ?pic .
   wd:Q23444 wdt:P18 ?white . 
-  BIND(COALESCE(?pic,  ?white) AS ?image_to_show)}
-  UNION
-  {?whatever wdt:P18 ?image_to_show .}
+  BIND(COALESCE(?pic,  ?white) AS ?image_to_show) 
   MINUS {
     VALUES ?numista_id {
     {%- for coin in collected_coins -%}

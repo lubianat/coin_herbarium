@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{%block body%}
+        <h3 class="mt-5">Tiago's Coin Herbarium</h3>
+        <br />
+
+
+                                <h3 class="title is-5" style="text-align: center"> {{plant_family_name}}</h3>
+<br />
+
+
+            <div style="text-align: center">
+                <h4 class="title is-5"> coins that I have</h4>
+                <iframe class="responsive-iframe container" style="width: 80%; height: 100vh; border: none;"
+                    src={{collected_coins_query}}
+                    referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+                <p />
+                <br />
+
+                <h4 class="title is-5"> coins that I want</h4>
+                <iframe class="responsive-iframe container" style="width: 80%; height: 100vh; border: none;"
+                    src={{missing_coins_query}}
+                    referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+                <p />
+
+            </div>
+            <p> Some countries do not allow reproduction of coin images under open licenses. Others do allow, but
+                information is not on Wikidata yet.
+                Both of these pictures are currently not shown. See <a
+                    href="https://commons.wikimedia.org/wiki/Commons:Currency">Commons:Currency</a>
+                for image licensing details.</p>
+
+{%endblock%}

@@ -46,38 +46,8 @@
             Website under construction!
         </div>
 
-        
-        <h3 class="mt-5">Tiago's Coin Herbarium</h1>
-            <p class="lead">
-                This personal world coin collection is a shameless
-                attempt to replicate the amazing <a href="coinzoo.net">Daniel's Coin Zoo</a>,
-                but for coins depicting different plants. I'll be collecting circulating coin types featuring plants in
-                the
-                reverse or obverse.
-            </p>
-            <p class="lead">
-                I'll be using and improving <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>'s
-                structured content on coin types, and try to keep the website maintenance as simple as possible.
-                For that, I intend to use <a href="https://en.numista.com/">Numista</a> to manage the collection and the
-                <a href="https://en.numista.com/api/doc/index.php">Numista's API</a> for retrieving the data. Then, I'll
-                be
-                displaying the information from the coins via Wikidata SPARQL queries. Have fun!
-            </p>
-            <br />
-            <div style="text-align: center">
-
-                <a href="/all.html"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/500_yen_reverse.jpg">
-                </a>
-                <p style="font-size: 30px;"> all plants</p>
-
-
-                <p> Some countries do not allow reproduction of coin images under open licenses. Others do allow,
-                    but
-                    information is not on Wikidata yet.
-                    Both of these pictures are currently not shown. See <a
-                        href="https://commons.wikimedia.org/wiki/Commons:Currency">Commons:Currency</a>
-                    for image licensing details.</p>
-
+        {% block body %}
+        {% endblock %}
 
 
         <div class="alert alert-warning" style="text-align: center" role="alert">
