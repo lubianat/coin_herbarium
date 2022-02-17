@@ -5,7 +5,7 @@
 <div class="row">
     {% for family in plant_families %}
 
-    <div class="col-md-3"  >
+    <div class="col-md-3" style="text-align: center;">
         <a href="/family/{{family.lowercase_name}}.html">
             {% for url in family.pic_urls %}
             <img height="100" src="{{url}}">
