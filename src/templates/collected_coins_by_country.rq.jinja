@@ -10,7 +10,11 @@ WITH {
 SELECT 
 *
 WHERE {
-?coin wdt:P279* wd:Q41207 .
+VALUES ?numista_id {
+{%- for coin in collected_coins -%}
+   "{{coin.coin.id}}"
+{%- endfor -%}}
+  ?coin wdt:P10205 ?numista_id .
 ?coin wdt:P180 ?whatever .  
 {?whatever wdt:P31 wd:Q16521 . }
 UNION
@@ -20,20 +24,13 @@ UNION
 AS %results 
 WHERE {
   INCLUDE %results
-   ?whatever wdt:P171* wd:{{qid}} .
+   ?whatever wdt:P171* wd:Q756.
    hint:Prior hint:gearing "forward".
-  OPTIONAL{?coin wdt:P17 ?country .}
+  ?coin wdt:P17 wd:{{qid}} .
   OPTIONAL{?coin wdt:P18 ?pic .}
   BIND ( IF (BOUND (?pic), "", "coin image unavailable")  as ?bound_status  ) .
   wd:Q23444 wdt:P18 ?white . 
   BIND(COALESCE(?pic,  ?white) AS ?image_to_show) 
-  MINUS {
-    VALUES ?numista_id {
-    {%- for coin in collected_coins -%}
-    "{{coin.coin.id}}"
-    {%- endfor -%}}
-    ?coin wdt:P10205 ?numista_id .
-    }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }
 ORDER BY ?bound_status ?whatever ?coin 

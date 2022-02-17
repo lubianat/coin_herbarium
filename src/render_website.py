@@ -13,14 +13,7 @@ user_details = response.json()
 
 collected_coins = user_details["collected_coins"]
 
-generate_plant_html(collected_coins, family_qid="Q756", family_name="all")
-
-generate_plant_html(
-    collected_coins,
-    family_qid="Q156569",
-    family_name="Rubiaceae",
-    base_folder="/family/",
-)
+generate_plant_html(collected_coins, qid="Q756", name="all")
 
 with open("docs/index.html.jinja") as f:
     page_template_string = f.read()
@@ -34,6 +27,8 @@ webpage = page_template.render()
 with open("docs/index.html", "w") as f:
     f.write(webpage)
 
+
+# Render By Family pages
 
 with open("src/queries/get_families.rq") as f:
     query = f.read()
@@ -75,7 +70,57 @@ with open("docs/family.html", "w") as f:
 for plant_family in plant_families:
     generate_plant_html(
         collected_coins,
-        family_qid=plant_family["qid"],
-        family_name=plant_family["name"],
-        base_folder="/family/",
+        qid=plant_family["qid"],
+        name=plant_family["name"],
+        base_class="family",
+    )
+
+# Render By Country pages
+
+with open("src/queries/get_countries.rq") as f:
+    query = f.read()
+
+countries_df = wikidata2df(query)
+print(countries_df)
+countries = []
+seen = []
+for i, row in countries_df.iterrows():
+    if row["country"] in seen:
+        continue
+    else:
+        seen.append(row["country"])
+    countries.append(
+        {
+            "lowercase_name": row["countryLabel"].lower(),
+            "name": row["countryLabel"],
+            "qid": row["country"],
+            "pic_urls": row["pics"].split("|"),
+        }
+    )
+
+with open("docs/country.html.jinja") as f:
+    page_template_string = f.read()
+page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
+    page_template_string
+)
+webpage = page_template.render(countries=countries)
+print(webpage)
+with open("docs/country.html", "w") as f:
+    f.write(webpage)
+
+with open("docs/family.html.jinja") as f:
+    page_template_string = f.read()
+
+page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
+    page_template_string
+)
+
+webpage = page_template.render(plant_families=plant_families)
+
+for country in countries:
+    generate_plant_html(
+        collected_coins,
+        qid=country["qid"],
+        name=country["name"],
+        base_class="country",
     )

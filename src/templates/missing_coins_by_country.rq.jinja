@@ -20,9 +20,9 @@ UNION
 AS %results 
 WHERE {
   INCLUDE %results
-   ?whatever wdt:P171* wd:{{qid}} .
-   hint:Prior hint:gearing "forward".
-  OPTIONAL{?coin wdt:P17 ?country .}
+  ?whatever wdt:P171* wd:Q756.
+  hint:Prior hint:gearing "forward".
+  ?coin wdt:P17 wd:{{qid}} .
   OPTIONAL{?coin wdt:P18 ?pic .}
   BIND ( IF (BOUND (?pic), "", "coin image unavailable")  as ?bound_status  ) .
   wd:Q23444 wdt:P18 ?white . 

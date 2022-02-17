@@ -1,0 +1,49 @@
+SELECT DISTINCT 
+  ?country ?countryLabel
+  (SAMPLE(?coin) AS ?sample_coin)
+  ?pics
+  ?bound_status 
+WITH 
+{
+  SELECT
+    ?coin 
+    ?whatever
+    ?country
+    (GROUP_CONCAT(?pic; SEPARATOR="|") as ?pics)
+    ?bound_status 
+  WHERE 
+  {
+    ?coin wdt:P279* wd:Q41207 .
+    ?coin wdt:P180 ?whatever .
+    ?coin wdt:P17 ?country .
+  
+    OPTIONAL{?coin wdt:P18 ?pic_ .}
+    BIND ( IF (BOUND (?pic_), "", "coin image unavailable")  as ?bound_status  ) .
+    ?country wdt:P41 ?country_flag . 
+    BIND(COALESCE(?pic_,  ?country_flag) AS ?pic) 
+    { ?whatever wdt:P31 wd:Q16521 . }
+    UNION
+    { ?whatever wdt:P31 wd:Q55983715 . } 
+  }
+  GROUP BY
+    ?coin 
+    ?whatever
+    ?country
+    ?bound_status
+    
+}
+AS 
+  %results 
+WHERE 
+{
+  INCLUDE %results
+  ?whatever wdt:P171* wd:Q756 .
+  hint:Prior hint:gearing "forward".
+ 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" . }
+}
+GROUP BY
+  ?country   ?countryLabel   ?pics   ?bound_status 
+ORDER BY 
+  ?countryLabel
+  ?bound_status 

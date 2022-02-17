@@ -14,7 +14,7 @@ VALUES ?numista_id {
 {%- for coin in collected_coins -%}
    "{{coin.coin.id}}"
 {%- endfor -%}}
-?coin wdt:P10205 ?numista_id .
+  ?coin wdt:P10205 ?numista_id .
 ?coin wdt:P180 ?whatever .  
 {?whatever wdt:P31 wd:Q16521 . }
 UNION
@@ -24,7 +24,7 @@ UNION
 AS %results 
 WHERE {
   INCLUDE %results
-   ?whatever wdt:P171* wd:{{family_qid}} .
+   ?whatever wdt:P171* wd:{{qid}} .
    hint:Prior hint:gearing "forward".
   OPTIONAL{?coin wdt:P17 ?country .}
   OPTIONAL{?coin wdt:P18 ?pic .}

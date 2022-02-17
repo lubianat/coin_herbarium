@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{%block body%}
+
+<div class="row">
+    {% for country in countries %}
+    <div class="col-md-3" style="text-align: center;">
+        <a href="/country/{{country.lowercase_name}}.html">
+            {% for url in country.pic_urls %}
+            <img height="100" src="{{url}}">
+            {% endfor %}
+            <p style="text-align: center;"> {{country.name}}</p>
+        </a>
+    </div>
+    {%endfor%}
+
+</div>
+    <div class="row" style="text-align:center;">
+    <p> Flags are shown for coins without images available on Wikidata.</p>
+    </div>
+{%endblock%}
