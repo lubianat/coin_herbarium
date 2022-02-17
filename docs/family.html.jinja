@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{%block body%}
+
+<div class="row">
+    {% for family in plant_families %}
+
+    <div class="col-md-3"  >
+        <a href="/family/{{family.lowercase_name}}.html">
+            {% for url in family.pic_urls %}
+            <img height="100" src="{{url}}">
+            {%endfor%}
+                <p style="text-align: center;"> {{family.name}}</p>
+        </a>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}

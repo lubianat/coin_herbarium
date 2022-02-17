@@ -1,0 +1,40 @@
+SELECT DISTINCT 
+  ?family ?family_name 
+  (SAMPLE(?coin) AS ?sample_coin)
+  ?pics
+WITH 
+{
+  SELECT
+    ?coin 
+    ?whatever
+    (GROUP_CONCAT(?pic; SEPARATOR="|") as ?pics)
+  WHERE 
+  {
+    ?coin wdt:P279* wd:Q41207 .
+    ?coin wdt:P180 ?whatever .  
+    ?coin wdt:P18 ?pic .
+    { ?whatever wdt:P31 wd:Q16521 . }
+    UNION
+    { ?whatever wdt:P31 wd:Q55983715 . } 
+  }
+  GROUP BY
+    ?coin 
+    ?whatever
+}
+AS 
+  %results 
+WHERE 
+{
+  INCLUDE %results
+  ?whatever wdt:P171* wd:Q756 .
+  hint:Prior hint:gearing "forward".
+  ?whatever wdt:P171* ?family .
+  ?family wdt:P105 wd:Q35409 . 
+  ?family wdt:P225 ?family_name . 
+  ?coin wdt:P18 ?pic .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" . }
+}
+GROUP BY
+  ?family ?family_name ?pics
+ORDER BY 
+  ?family_name
