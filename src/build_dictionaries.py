@@ -52,7 +52,7 @@ WHERE {{
 }}
 ORDER BY
   ?countryLabel
-  DESC(?start_date)
+  ?start_date
   ?face_value
 """
 
