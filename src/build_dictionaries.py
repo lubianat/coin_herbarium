@@ -23,12 +23,22 @@ qid = "Q756"
 query = f"""
 SELECT DISTINCT 
 ?numista_id
-?whatever 
+?whatever
+?country ?countryLabel
+?start_date
+?face_value 
 WITH {{
 SELECT * WHERE {{
 VALUES ?numista_id {{ "{joined_coins}" }}
 ?coin wdt:P10205 ?numista_id .
 ?coin wdt:P180 ?whatever .  
+?coin wdt:P17 ?country . 
+?coin wdt:P580 ?start_date . 
+?coin wdt:P3934 ?face_value . 
+
+?country rdfs:label ?countryLabel . 
+FILTER ( LANG(?countryLabel) = "en" )
+
 {{?whatever wdt:P31 wd:Q16521 . }}
 UNION
 {{?whatever wdt:P31 wd:Q55983715 . }}
@@ -40,28 +50,37 @@ WHERE {{
    ?whatever wdt:P171* wd:{qid} .
    hint:Prior hint:gearing "forward".
 }}
+ORDER BY
+  ?countryLabel
+  DESC(?start_date)
+  ?face_value
 """
 
-print(query)
 df = wikidata2df(query)
 
-print(df)
-
 valid_coins = list(df["numista_id"])
+with open("data/coin_images.json") as f:
+    coin_picture_dict_list = json.loads(f.read())
 
-coin_picture_dict_list = []
+coins_present = [coin["id"] for coin in coin_picture_dict_list]
+
 for coin in tqdm.tqdm(valid_coins):
+
+    if coin in coins_present:
+        continue
     response = requests.get(
         endpoint + "/coins/" + coin,
         headers={"Numista-API-Key": api_key},
     )
     coin_details = response.json()
+    print(coin_details)
     coin_dict = {}
-    coin_dict["obverse"] = coin_details["obverse"]["picture"]
-    coin_dict["reverse"] = coin_details["reverse"]["picture"]
+    coin_dict["obverse"] = coin_details["obverse"]["thumbnail"]
+    coin_dict["reverse"] = coin_details["reverse"]["thumbnail"]
     coin_dict["id"] = coin
     coin_dict["title"] = coin_details["title"]
     coin_picture_dict_list.append(coin_dict)
+    coins_present.append(coin)
     time.sleep(0.1)
 
 with open("data/coin_images.json", "w+") as f:

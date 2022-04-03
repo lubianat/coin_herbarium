@@ -6,25 +6,16 @@
 <br />
 
 
-            <div style="text-align: center">
-                <h4 class="title is-5"> coins that I have</h4>
-                <iframe class="responsive-iframe container" style="width: 80%; height: 100vh; border: none;"
-                    src={{collected_coins_query}}
-                    referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-                <p />
-                <br />
-
-                <h4 class="title is-5"> coins that I want</h4>
-                <iframe class="responsive-iframe container" style="width: 80%; height: 100vh; border: none;"
-                    src={{missing_coins_query}}
-                    referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-                <p />
-
-            </div>
-            <p> Some countries do not allow reproduction of coin images under open licenses. Others do allow, but
-                information is not on Wikidata yet.
-                Both of these pictures are currently not shown. See <a
-                    href="https://commons.wikimedia.org/wiki/Commons:Currency">Commons:Currency</a>
-                for image licensing details.</p>
+<div class="row">
+    {% for coin in coins %}
+    <div class="col-md-3" style="text-align: center;">
+        <a target="_blank" rel="noreferrer" href="https://en.numista.com/catalogue/type{{coin.id}}.html" class="d-block mb-4 h-100">
+            <img height="100" src="{{coin.obverse}}">
+            <img height="100" src="{{coin.reverse}}">
+            <p style="text-align: center;"> {{coin.title}}</p>
+        </a>
+    </div>
+    {%endfor%}
+</div>
 
 {%endblock%}

@@ -24,7 +24,7 @@ page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
     page_template_string
 )
 
-webpage = page_template.render(coins=coin_images)
+webpage = page_template.render(coins=coin_images, title="All coins")
 
 with open("docs/all.html", "w") as f:
     f.write(webpage)
