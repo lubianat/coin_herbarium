@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{%block body%}
+
+                                <h3 class="title is-5" style="text-align: center"> All coins</h3>
+<br />
+
+<!-- Page Content -->
+<div class="container">
+
+<div class="row">
+    {% for coin in coins %}
+    <div class="col-md-3" style="text-align: center;">
+        <a target="_blank" rel="noreferrer" href="https://en.numista.com/catalogue/type{{coin.id}}.html" class="d-block mb-4 h-100">
+            <img height="100" src="{{coin.obverse}}">
+            <img height="100" src="{{coin.reverse}}">
+            <p style="text-align: center;"> {{coin.title}}</p>
+        </a>
+    </div>
+    {%endfor%}
+</div>
+
+    Images from <a href="http://en.numista.com/"> Numista </a>
+</div>
+
+{%endblock%}

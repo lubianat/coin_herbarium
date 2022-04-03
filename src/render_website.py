@@ -1,6 +1,7 @@
 from login_info import *
 from helper import *
 from wikidata2df import wikidata2df
+import json
 
 endpoint = "https://api.numista.com/api/v2"
 user_id = "231967"
@@ -12,7 +13,22 @@ response = requests.get(
 user_details = response.json()
 collected_coins = user_details["collected_coins"]
 
-generate_plant_html(collected_coins, qid="Q756", name="all")
+with open("data/coin_images.json") as f:
+    coin_images = json.loads(f.read())
+
+page_template_path = "./docs/all.html.jinja"
+with open(page_template_path) as f:
+    page_template_string = f.read()
+
+page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
+    page_template_string
+)
+
+webpage = page_template.render(coins=coin_images)
+
+with open("docs/all.html", "w") as f:
+    f.write(webpage)
+
 
 with open("docs/index.html.jinja") as f:
     page_template_string = f.read()
