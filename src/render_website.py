@@ -10,7 +10,6 @@ response = requests.get(
     headers={"Numista-API-Key": api_key},
 )
 user_details = response.json()
-
 collected_coins = user_details["collected_coins"]
 
 generate_plant_html(collected_coins, qid="Q756", name="all")
