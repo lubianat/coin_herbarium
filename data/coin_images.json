@@ -472,5 +472,89 @@
         "obverse": "https://en.numista.com/catalogue/photos/bceao/5f76907ab01315.07636052-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/bceao/5f76907b24bc50.79576615-180.jpg",
         "title": "10 Francs CFA"
+    },
+    {
+        "id": "753",
+        "obverse": "https://en.numista.com/catalogue/photos/belgique/2140-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/belgique/2141-180.jpg",
+        "title": "20 Francs - Baudouin I (Dutch text)"
+    },
+    {
+        "id": "1989",
+        "obverse": "https://en.numista.com/catalogue/photos/croatie/58-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/croatie/57-180.jpg",
+        "title": "5 Lipa (Croatian text)"
+    },
+    {
+        "id": "1987",
+        "obverse": "https://en.numista.com/catalogue/photos/croatie/600217b4df1b47.83079923-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/croatie/600217b3531bc3.29998565-180.jpg",
+        "title": "50 Lipa (Croatian text)"
+    },
+    {
+        "id": "3424",
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne/2283-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne/2284-180.jpg",
+        "title": "5 Pfennig (Bank of German States)"
+    },
+    {
+        "id": "105",
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne/1383-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne/1384-180.jpg",
+        "title": "1 Euro Cent"
+    },
+    {
+        "id": "106",
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne/61fcbada841871.31395888-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne/61fcbadb755495.73524562-180.jpg",
+        "title": "2 Euro Cent"
+    },
+    {
+        "id": "809",
+        "obverse": "https://en.numista.com/catalogue/photos/hongrie/3846-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/hongrie/3847-180.jpg",
+        "title": "20 Forint"
+    },
+    {
+        "id": "1231",
+        "obverse": "https://en.numista.com/catalogue/photos/israel/2266-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/israel/2267-180.jpg",
+        "title": "10 Agorot"
+    },
+    {
+        "id": "525",
+        "obverse": "https://en.numista.com/catalogue/photos/pologne/5ebaaefa7cc8c4.20261116-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/pologne/5ebaaefad715b0.20254560-180.jpg",
+        "title": "2 Grosze (non-magnetic)"
+    },
+    {
+        "id": "520",
+        "obverse": "https://en.numista.com/catalogue/photos/pologne/9315-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/pologne/9316-180.jpg",
+        "title": "1 Z\u0142oty"
+    },
+    {
+        "id": "61644",
+        "obverse": "https://en.numista.com/catalogue/photos/pologne/6226-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/pologne/6227-180.jpg",
+        "title": "5 Groszy (magnetic)"
+    },
+    {
+        "id": "1787",
+        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/25-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/26-180.jpg",
+        "title": "20 Cents (SUID-AFRIKA - SOUTH AFRICA)"
+    },
+    {
+        "id": "1149",
+        "obverse": "https://en.numista.com/catalogue/photos/espagne/230-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/espagne/206-180.jpg",
+        "title": "5 Pesetas (La Rioja)"
+    },
+    {
+        "id": "5197",
+        "obverse": "https://en.numista.com/catalogue/photos/turquie/2586-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/turquie/2587-180.jpg",
+        "title": "10 Kuru\u015f"
     }
 ]
