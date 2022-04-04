@@ -4,6 +4,7 @@ from wikidata2df import wikidata2df
 import json
 import time
 import tqdm
+from operator import itemgetter
 
 endpoint = "https://api.numista.com/api/v2"
 user_id = "231967"
@@ -22,8 +23,8 @@ joined_coins = '""'.join(coins)
 qid = "Q756"
 query = f"""
 SELECT DISTINCT 
+?coin
 ?numista_id
-?whatever
 ?country ?countryLabel
 ?start_date
 ?face_value 
@@ -64,8 +65,9 @@ with open("data/coin_images.json") as f:
 
 coins_present = [coin["id"] for coin in coin_picture_dict_list]
 
-for coin in tqdm.tqdm(valid_coins):
+for i, row in tqdm.tqdm(df.iterrows()):
 
+    coin = row["numista_id"]
     if coin in coins_present:
         continue
     response = requests.get(
@@ -75,6 +77,11 @@ for coin in tqdm.tqdm(valid_coins):
     coin_details = response.json()
     print(coin_details)
     coin_dict = {}
+    coin_dict["face_value"] = float(row["face_value"])
+    coin_dict["wikidata"] = row["coin"]
+    coin_dict["country"] = row["countryLabel"]
+    coin_dict["country_qid"] = row["country"]
+    coin_dict["min_year"] = coin_details["min_year"]
     coin_dict["obverse"] = coin_details["obverse"]["thumbnail"]
     coin_dict["reverse"] = coin_details["reverse"]["thumbnail"]
     coin_dict["id"] = coin
@@ -82,6 +89,11 @@ for coin in tqdm.tqdm(valid_coins):
     coin_picture_dict_list.append(coin_dict)
     coins_present.append(coin)
     time.sleep(0.1)
+
+
+coin_picture_dict_list = sorted(
+    coin_picture_dict_list, key=itemgetter("country", "min_year", "face_value")
+)
 
 with open("data/coin_images.json", "w+") as f:
     f.write(json.dumps(coin_picture_dict_list, indent=4, sort_keys=True))

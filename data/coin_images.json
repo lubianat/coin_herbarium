@@ -1,560 +1,1058 @@
 [
     {
+        "country": "Argentina",
+        "country_qid": "Q414",
+        "face_value": 0.2,
         "id": "3254",
+        "min_year": 1957,
         "obverse": "https://en.numista.com/catalogue/photos/argentine/1226-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/argentine/1227-180.jpg",
-        "title": "20 Centavos"
+        "title": "20 Centavos",
+        "wikidata": "Q110981423"
     },
     {
+        "country": "Argentina",
+        "country_qid": "Q414",
+        "face_value": 1.0,
         "id": "2818",
+        "min_year": 1957,
         "obverse": "https://en.numista.com/catalogue/photos/argentine/32-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/argentine/33-180.jpg",
-        "title": "1 Peso"
+        "title": "1 Peso",
+        "wikidata": "Q110984134"
     },
     {
+        "country": "Argentina",
+        "country_qid": "Q414",
+        "face_value": 10.0,
         "id": "955",
+        "min_year": 1962,
         "obverse": "https://en.numista.com/catalogue/photos/argentine/13-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/argentine/14-180.jpg",
-        "title": "10 Pesos"
+        "title": "10 Pesos",
+        "wikidata": "Q110900203"
     },
     {
+        "country": "Argentina",
+        "country_qid": "Q414",
+        "face_value": 1.0,
         "id": "13049",
+        "min_year": 2010,
         "obverse": "https://en.numista.com/catalogue/photos/argentine/1042-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/argentine/1043-180.jpg",
-        "title": "1 Peso (El Palmar)"
+        "title": "1 Peso (El Palmar)",
+        "wikidata": "Q110867766"
     },
     {
+        "country": "Austria",
+        "country_qid": "Q40",
+        "face_value": 0.01,
         "id": "57",
+        "min_year": 2002,
         "obverse": "https://en.numista.com/catalogue/photos/autriche/3227-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/autriche/3228-180.jpg",
-        "title": "1 Euro Cent"
+        "title": "1 Euro Cent",
+        "wikidata": "Q110990612"
     },
     {
+        "country": "Austria",
+        "country_qid": "Q40",
+        "face_value": 0.02,
         "id": "58",
+        "min_year": 2002,
         "obverse": "https://en.numista.com/catalogue/photos/autriche/621339f8972019.30788998-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/autriche/621339f98e9cc9.26512080-180.jpg",
-        "title": "2 Euro Cent"
+        "title": "2 Euro Cent",
+        "wikidata": "Q110990603"
     },
     {
+        "country": "Austria",
+        "country_qid": "Q40",
+        "face_value": 0.05,
         "id": "59",
+        "min_year": 2002,
         "obverse": "https://en.numista.com/catalogue/photos/autriche/2787-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/autriche/2788-180.jpg",
-        "title": "5 Euro Cent"
+        "title": "5 Euro Cent",
+        "wikidata": "Q110990607"
     },
     {
+        "country": "Bahrain",
+        "country_qid": "Q398",
+        "face_value": 0.01,
         "id": "46716",
+        "min_year": 2010,
         "obverse": "https://en.numista.com/catalogue/photos/bahrein/238-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/bahrein/239-180.jpg",
-        "title": "10 Fils - Hamad (magnetic; 2nd type)"
+        "title": "10 Fils - Hamad (magnetic; 2nd type)",
+        "wikidata": "Q110867988"
     },
     {
-        "id": "9191",
-        "obverse": "https://en.numista.com/catalogue/photos/bolivie/6227e43be924b4.16467316-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bolivie/6227e43c619d44.47582076-180.jpg",
-        "title": "10 Centavos"
-    },
-    {
-        "id": "3226",
-        "obverse": "https://en.numista.com/catalogue/photos/bolivie/6071d71ea4afd6.08745377-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bolivie/6071d71f050500.84924046-180.jpg",
-        "title": "1 Peso Boliviano"
-    },
-    {
-        "id": "2248",
-        "obverse": "https://en.numista.com/catalogue/photos/bresil/2834-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bresil/2835-180.jpg",
-        "title": "1 Cruzeiro"
-    },
-    {
-        "id": "8852",
-        "obverse": "https://en.numista.com/catalogue/photos/bresil/329-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bresil/330-180.jpg",
-        "title": "1 Cruzeiro"
-    },
-    {
-        "id": "5383",
-        "obverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa55a14ed2.71985518-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa567a8307.53079348-180.jpg",
-        "title": "1 Centavo (FAO)"
-    },
-    {
-        "id": "5384",
-        "obverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa41416ef8.09766138-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa42309707.29385451-180.jpg",
-        "title": "2 Centavos (FAO)"
-    },
-    {
-        "id": "2247",
-        "obverse": "https://en.numista.com/catalogue/photos/bresil/27-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bresil/28-180.jpg",
-        "title": "1 Cruzeiro"
-    },
-    {
-        "id": "2576",
-        "obverse": "https://en.numista.com/catalogue/photos/bresil/441-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bresil/443-180.jpg",
-        "title": "5 Cruzeiros"
-    },
-    {
-        "id": "2832",
-        "obverse": "https://en.numista.com/catalogue/photos/bresil/2421-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bresil/2422-180.jpg",
-        "title": "1 Centavo"
-    },
-    {
-        "id": "433",
-        "obverse": "https://en.numista.com/catalogue/photos/canada/724-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/canada/725-180.jpg",
-        "title": "1 Cent - Elizabeth II (1st portrait)"
-    },
-    {
-        "id": "2302",
-        "obverse": "https://en.numista.com/catalogue/photos/chili/902-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/chili/903-180.jpg",
-        "title": "100 Pesos"
-    },
-    {
-        "id": "34772",
-        "obverse": "https://en.numista.com/catalogue/photos/colombie/5e6f79cb449a31.02991353-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/colombie/5e6f79cbaf0484.40537849-180.jpg",
-        "title": "100 Pesos"
-    },
-    {
-        "id": "69",
-        "obverse": "https://en.numista.com/catalogue/photos/costa_rica/954-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/costa_rica/955-180.jpg",
-        "title": "5 Colones"
-    },
-    {
-        "id": "3268",
-        "obverse": "https://en.numista.com/catalogue/photos/costa_rica/536-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/costa_rica/537-180.jpg",
-        "title": "5 Colones"
-    },
-    {
-        "id": "1272",
-        "obverse": "https://en.numista.com/catalogue/photos/croatie/106-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/croatie/105-180.jpg",
-        "title": "10 Lipa (Croatian text)"
-    },
-    {
-        "id": "9470",
-        "obverse": "https://en.numista.com/catalogue/photos/equateur/476-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/equateur/477-180.jpg",
-        "title": "20 Centavos"
-    },
-    {
-        "id": "5",
-        "obverse": "https://en.numista.com/catalogue/photos/france/5607-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/france/5608-180.jpg",
-        "title": "\u00bd Franc (signature &quot;O. Roty&quot;)"
-    },
-    {
-        "id": "8",
-        "obverse": "https://en.numista.com/catalogue/photos/france/5f9dd414800e77.93186810-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/france/5f9dd414d40668.27338105-180.jpg",
-        "title": "5 Francs (signature \"O. Roty\")"
-    },
-    {
-        "id": "7",
-        "obverse": "https://en.numista.com/catalogue/photos/france/5f9dd37e4e2969.55690294-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/france/5f9dd37e92d7d2.97543737-180.jpg",
-        "title": "2 Francs"
-    },
-    {
-        "id": "10057",
-        "obverse": "https://en.numista.com/catalogue/photos/aof/61f3fe0e8a6a64.71634581-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/aof/61f3fe0ec15999.85088788-180.jpg",
-        "title": "10 Francs Togo"
-    },
-    {
-        "id": "2032",
-        "obverse": "https://en.numista.com/catalogue/photos/ddr/19-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/ddr/20-180.jpg",
-        "title": "50 Pfennig"
-    },
-    {
-        "id": "2729",
-        "obverse": "https://en.numista.com/catalogue/photos/allemagne-pre1945/5efadfad8b7e88.51543948-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/allemagne-pre1945/5efadfadef5959.04668588-180.jpg",
-        "title": "50 Pfennig"
-    },
-    {
-        "id": "1955",
-        "obverse": "https://en.numista.com/catalogue/photos/allemagne/260-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/allemagne/259-180.jpg",
-        "title": "50 Pfennig"
-    },
-    {
-        "id": "852",
-        "obverse": "https://en.numista.com/catalogue/photos/allemagne/5fd0b0f44d7398.44300713-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/allemagne/5fd0b0f4b79c24.48245212-180.jpg",
-        "title": "2 Pfennig (non-magnetic)"
-    },
-    {
-        "id": "846",
-        "obverse": "https://en.numista.com/catalogue/photos/allemagne/2293-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/allemagne/2294-180.jpg",
-        "title": "1 Deutsche Mark"
-    },
-    {
-        "id": "1579",
-        "obverse": "https://en.numista.com/catalogue/photos/hong_kong/25-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/hong_kong/26-180.jpg",
-        "title": "10 Cents"
-    },
-    {
-        "id": "2118",
-        "obverse": "https://en.numista.com/catalogue/photos/hong_kong/582-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/hong_kong/583-180.jpg",
-        "title": "1 Dollar"
-    },
-    {
-        "id": "1609",
-        "obverse": "https://en.numista.com/catalogue/photos/inde/2311-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/inde/3165-180.jpg",
-        "title": "1 Rupee"
-    },
-    {
-        "id": "977",
-        "obverse": "https://en.numista.com/catalogue/photos/israel/34-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/israel/35-180.jpg",
-        "title": "1 Agora"
-    },
-    {
-        "id": "2720",
-        "obverse": "https://en.numista.com/catalogue/photos/israel/863-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/israel/864-180.jpg",
-        "title": "10 New Sheqalim"
-    },
-    {
-        "id": "304",
-        "obverse": "https://en.numista.com/catalogue/photos/italie/5f8b3d7716d705.15931157-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/italie/5f8b3d77608e26.65875438-180.jpg",
-        "title": "100 Lire (large type)"
-    },
-    {
-        "id": "722",
-        "obverse": "https://en.numista.com/catalogue/photos/italie/5f99545db61048.91018691-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/italie/5f99545e08ffd3.84579769-180.jpg",
-        "title": "100 Lire"
-    },
-    {
-        "id": "929",
-        "obverse": "https://en.numista.com/catalogue/photos/japon/19-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/japon/20-180.jpg",
-        "title": "5 Yen - Sh\u014dwa (Gothic style)"
-    },
-    {
-        "id": "1026",
-        "obverse": "https://en.numista.com/catalogue/photos/japon/9-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/japon/10-180.jpg",
-        "title": "50 Yen - Sh\u014dwa"
-    },
-    {
-        "id": "983",
-        "obverse": "https://en.numista.com/catalogue/photos/japon/892-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/japon/893-180.jpg",
-        "title": "1 Yen - Heisei"
-    },
-    {
-        "id": "2121",
-        "obverse": "https://en.numista.com/catalogue/photos/japon/1081-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/japon/1082-180.jpg",
-        "title": "100 Yen - Heisei"
-    },
-    {
-        "id": "931",
-        "obverse": "https://en.numista.com/catalogue/photos/malaisie/535-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/malaisie/534-180.jpg",
-        "title": "1 Sen"
-    },
-    {
-        "id": "1784",
-        "obverse": "https://en.numista.com/catalogue/photos/malte/6059a7bf593725.03605752-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/malte/6059a7bfa789e7.62079533-180.jpg",
-        "title": "1 Lira"
-    },
-    {
-        "id": "996",
-        "obverse": "https://en.numista.com/catalogue/photos/mexique/4403-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/mexique/4404-180.jpg",
-        "title": "1 Centavo"
-    },
-    {
-        "id": "583",
-        "obverse": "https://en.numista.com/catalogue/photos/mexique/4301-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/mexique/4302-180.jpg",
-        "title": "50 Centavos (large type)"
-    },
-    {
-        "id": "663",
-        "obverse": "https://en.numista.com/catalogue/photos/pays-bas/2505-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/pays-bas/2506-180.jpg",
-        "title": "5 Cent - Juliana"
-    },
-    {
-        "id": "2937",
-        "obverse": "https://en.numista.com/catalogue/photos/antilles_neerlandaises/704-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/antilles_neerlandaises/705-180.jpg",
-        "title": "25 Cents - Beatrix / Willem-Alexander"
-    },
-    {
-        "id": "4461",
-        "obverse": "https://en.numista.com/catalogue/photos/nigeria/60674178c2cef9.69437850-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/nigeria/60674179113073.69203778-180.jpg",
-        "title": "10 Kobo"
-    },
-    {
-        "id": "5149",
-        "obverse": "https://en.numista.com/catalogue/photos/paraguay/605a7c859837b8.24980699-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/paraguay/605a7c85c54a63.06725006-180.jpg",
-        "title": "10 C\u00e9ntimos"
-    },
-    {
-        "id": "5155",
-        "obverse": "https://en.numista.com/catalogue/photos/paraguay/605ab56b89a585.50549232-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/paraguay/605ab4c0370a03.22949023-180.jpg",
-        "title": "5 Guaran\u00edes (FAO)"
-    },
-    {
-        "id": "667",
-        "obverse": "https://en.numista.com/catalogue/photos/chine/1748-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/chine/1749-180.jpg",
-        "title": "1 Yuan"
-    },
-    {
-        "id": "1588",
-        "obverse": "https://en.numista.com/catalogue/photos/chine/18-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/chine/19-180.jpg",
-        "title": "1 Yuan"
-    },
-    {
-        "id": "1223",
-        "obverse": "https://en.numista.com/catalogue/photos/chine/20-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/chine/21-180.jpg",
-        "title": "1 Jiao (magnetic)"
-    },
-    {
-        "id": "5418",
-        "obverse": "https://en.numista.com/catalogue/photos/perou/1211-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/perou/1212-180.jpg",
-        "title": "1 Centavo"
-    },
-    {
-        "id": "1675",
-        "obverse": "https://en.numista.com/catalogue/photos/singapour/1832-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/singapour/1833-180.jpg",
-        "title": "5 Cents (ribbon downwards)"
-    },
-    {
-        "id": "1674",
-        "obverse": "https://en.numista.com/catalogue/photos/singapour/1826-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/singapour/1827-180.jpg",
-        "title": "10 Cents (ribbon downwards)"
-    },
-    {
-        "id": "1673",
-        "obverse": "https://en.numista.com/catalogue/photos/singapour/20-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/singapour/21-180.jpg",
-        "title": "20 Cents (ribbon downwards)"
-    },
-    {
-        "id": "1672",
-        "obverse": "https://en.numista.com/catalogue/photos/singapour/375-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/singapour/376-180.jpg",
-        "title": "50 Cents (ribbon downwards)"
-    },
-    {
-        "id": "1665",
-        "obverse": "https://en.numista.com/catalogue/photos/singapour/373-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/singapour/374-180.jpg",
-        "title": "1 Dollar (ribbon downwards)"
-    },
-    {
-        "id": "916",
-        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1477-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1478-180.jpg",
-        "title": "20 Cents (Afrikaans Legend - SUID-AFRIKA)"
-    },
-    {
-        "id": "6600",
-        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1724-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1725-180.jpg",
-        "title": "10 Cents (Zulu Legend - iNingizimu Afrika)"
-    },
-    {
-        "id": "25310",
-        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1481-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1482-180.jpg",
-        "title": "20 Cents (Venda Legend - Afurika Tshipembe)"
-    },
-    {
-        "id": "1653",
-        "obverse": "https://en.numista.com/catalogue/photos/coree_du_sud/5e30f32bb1c2f9.91714435-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/coree_du_sud/5e30f32c5a5bc7.66736018-180.jpg",
-        "title": "50 Won (FAO)"
-    },
-    {
-        "id": "792",
-        "obverse": "https://en.numista.com/catalogue/photos/espagne/2392-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/espagne/2393-180.jpg",
-        "title": "50 Centimos - Francisco Franco"
-    },
-    {
-        "id": "185",
-        "obverse": "https://en.numista.com/catalogue/photos/suisse/1142-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/suisse/1143-180.jpg",
-        "title": "1 Franc (Helvetia standing; copper-nickel)"
-    },
-    {
-        "id": "189",
-        "obverse": "https://en.numista.com/catalogue/photos/suisse/1506-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/suisse/1507-180.jpg",
-        "title": "2 Francs (Helvetia standing; copper-nickel)"
-    },
-    {
-        "id": "74572",
-        "obverse": "https://en.numista.com/catalogue/photos/tonga/319-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/tonga/320-180.jpg",
-        "title": "5 Seniti - Tupou VI"
-    },
-    {
-        "id": "1341",
-        "obverse": "https://en.numista.com/catalogue/photos/turquie/56-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/turquie/57-180.jpg",
-        "title": "1 Lira"
-    },
-    {
-        "id": "1326",
-        "obverse": "https://en.numista.com/catalogue/photos/turquie/16-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/turquie/17-180.jpg",
-        "title": "10 000 Lira"
-    },
-    {
-        "id": "53",
-        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/5226-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/5225-180.jpg",
-        "title": "1 Dime &quot;Roosevelt Dime&quot;"
-    },
-    {
-        "id": "607",
-        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/4863-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/4862-180.jpg",
-        "title": "\u00bc Dollar &quot;Washington Quarter&quot; (Georgia)"
-    },
-    {
-        "id": "608",
-        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/4864-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/4865-180.jpg",
-        "title": "\u00bc Dollar &quot;Washington Quarter&quot; (Connecticut)"
-    },
-    {
-        "id": "69633",
-        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/5018-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/5019-180.jpg",
-        "title": "\u00bc Dollar &#039;&#039;Washington Quarter&#039;&#039; (Blue Ridge Parkway, North Carolina)"
-    },
-    {
-        "id": "3808",
-        "obverse": "https://en.numista.com/catalogue/photos/uruguay/1110-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/uruguay/1111-180.jpg",
-        "title": "5 Pesos"
-    },
-    {
-        "id": "4264",
-        "obverse": "https://en.numista.com/catalogue/photos/uruguay/239-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/uruguay/240-180.jpg",
-        "title": "1 Nuevo Peso"
-    },
-    {
-        "id": "3401",
-        "obverse": "https://en.numista.com/catalogue/photos/bceao/5f76907ab01315.07636052-180.jpg",
-        "reverse": "https://en.numista.com/catalogue/photos/bceao/5f76907b24bc50.79576615-180.jpg",
-        "title": "10 Francs CFA"
-    },
-    {
+        "country": "Belgium",
+        "country_qid": "Q31",
+        "face_value": 20.0,
         "id": "753",
+        "min_year": 1980,
         "obverse": "https://en.numista.com/catalogue/photos/belgique/2140-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/belgique/2141-180.jpg",
-        "title": "20 Francs - Baudouin I (Dutch text)"
+        "title": "20 Francs - Baudouin I (Dutch text)",
+        "wikidata": "Q111475727"
     },
     {
+        "country": "Bolivia",
+        "country_qid": "Q750",
+        "face_value": 0.1,
+        "id": "9191",
+        "min_year": 1893,
+        "obverse": "https://en.numista.com/catalogue/photos/bolivie/6227e43be924b4.16467316-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bolivie/6227e43c619d44.47582076-180.jpg",
+        "title": "10 Centavos",
+        "wikidata": "Q110899257"
+    },
+    {
+        "country": "Bolivia",
+        "country_qid": "Q750",
+        "face_value": 1.0,
+        "id": "3226",
+        "min_year": 1968,
+        "obverse": "https://en.numista.com/catalogue/photos/bolivie/6071d71ea4afd6.08745377-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bolivie/6071d71f050500.84924046-180.jpg",
+        "title": "1 Peso Boliviano",
+        "wikidata": "Q110984136"
+    },
+    {
+        "country": "Brazil",
+        "country_qid": "Q155",
+        "face_value": 1.0,
+        "id": "2248",
+        "min_year": 1967,
+        "obverse": "https://en.numista.com/catalogue/photos/bresil/2834-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bresil/2835-180.jpg",
+        "title": "1 Cruzeiro",
+        "wikidata": "Q110894815"
+    },
+    {
+        "country": "Brazil",
+        "country_qid": "Q155",
+        "face_value": 1.0,
+        "id": "8852",
+        "min_year": 1974,
+        "obverse": "https://en.numista.com/catalogue/photos/bresil/329-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bresil/330-180.jpg",
+        "title": "1 Cruzeiro",
+        "wikidata": "Q110909182"
+    },
+    {
+        "country": "Brazil",
+        "country_qid": "Q155",
+        "face_value": 0.01,
+        "id": "5383",
+        "min_year": 1975,
+        "obverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa55a14ed2.71985518-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa567a8307.53079348-180.jpg",
+        "title": "1 Centavo (FAO)",
+        "wikidata": "Q110901309"
+    },
+    {
+        "country": "Brazil",
+        "country_qid": "Q155",
+        "face_value": 0.02,
+        "id": "5384",
+        "min_year": 1975,
+        "obverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa41416ef8.09766138-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bresil/5e35fa42309707.29385451-180.jpg",
+        "title": "2 Centavos (FAO)",
+        "wikidata": "Q110901449"
+    },
+    {
+        "country": "Brazil",
+        "country_qid": "Q155",
+        "face_value": 1.0,
+        "id": "2247",
+        "min_year": 1979,
+        "obverse": "https://en.numista.com/catalogue/photos/bresil/27-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bresil/28-180.jpg",
+        "title": "1 Cruzeiro",
+        "wikidata": "Q110884459"
+    },
+    {
+        "country": "Brazil",
+        "country_qid": "Q155",
+        "face_value": 5.0,
+        "id": "2576",
+        "min_year": 1980,
+        "obverse": "https://en.numista.com/catalogue/photos/bresil/441-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bresil/443-180.jpg",
+        "title": "5 Cruzeiros",
+        "wikidata": "Q110936807"
+    },
+    {
+        "country": "Brazil",
+        "country_qid": "Q155",
+        "face_value": 0.01,
+        "id": "2832",
+        "min_year": 1994,
+        "obverse": "https://en.numista.com/catalogue/photos/bresil/2421-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bresil/2422-180.jpg",
+        "title": "1 Centavo",
+        "wikidata": "Q111182451"
+    },
+    {
+        "country": "Canada",
+        "country_qid": "Q16",
+        "face_value": 0.01,
+        "id": "433",
+        "min_year": 1953,
+        "obverse": "https://en.numista.com/catalogue/photos/canada/724-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/canada/725-180.jpg",
+        "title": "1 Cent - Elizabeth II (1st portrait)",
+        "wikidata": "Q111013059"
+    },
+    {
+        "country": "Chile",
+        "country_qid": "Q298",
+        "face_value": 100.0,
+        "id": "2302",
+        "min_year": 1981,
+        "obverse": "https://en.numista.com/catalogue/photos/chili/902-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/chili/903-180.jpg",
+        "title": "100 Pesos",
+        "wikidata": "Q111475240"
+    },
+    {
+        "country": "Colombia",
+        "country_qid": "Q739",
+        "face_value": 100.0,
+        "id": "34772",
+        "min_year": 2012,
+        "obverse": "https://en.numista.com/catalogue/photos/colombie/5e6f79cb449a31.02991353-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/colombie/5e6f79cbaf0484.40537849-180.jpg",
+        "title": "100 Pesos",
+        "wikidata": "Q111398531"
+    },
+    {
+        "country": "Costa Rica",
+        "country_qid": "Q800",
+        "face_value": 5.0,
+        "id": "69",
+        "min_year": 1983,
+        "obverse": "https://en.numista.com/catalogue/photos/costa_rica/954-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/costa_rica/955-180.jpg",
+        "title": "5 Colones",
+        "wikidata": "Q111182867"
+    },
+    {
+        "country": "Costa Rica",
+        "country_qid": "Q800",
+        "face_value": 5.0,
+        "id": "3268",
+        "min_year": 2005,
+        "obverse": "https://en.numista.com/catalogue/photos/costa_rica/536-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/costa_rica/537-180.jpg",
+        "title": "5 Colones",
+        "wikidata": "Q111475053"
+    },
+    {
+        "country": "Croatia",
+        "country_qid": "Q224",
+        "face_value": 0.05,
         "id": "1989",
+        "min_year": 1993,
         "obverse": "https://en.numista.com/catalogue/photos/croatie/58-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/croatie/57-180.jpg",
-        "title": "5 Lipa (Croatian text)"
+        "title": "5 Lipa (Croatian text)",
+        "wikidata": "Q111475512"
     },
     {
+        "country": "Croatia",
+        "country_qid": "Q224",
+        "face_value": 0.1,
+        "id": "1272",
+        "min_year": 1993,
+        "obverse": "https://en.numista.com/catalogue/photos/croatie/106-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/croatie/105-180.jpg",
+        "title": "10 Lipa (Croatian text)",
+        "wikidata": "Q111076603"
+    },
+    {
+        "country": "Croatia",
+        "country_qid": "Q224",
+        "face_value": 0.5,
         "id": "1987",
+        "min_year": 1993,
         "obverse": "https://en.numista.com/catalogue/photos/croatie/600217b4df1b47.83079923-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/croatie/600217b3531bc3.29998565-180.jpg",
-        "title": "50 Lipa (Croatian text)"
+        "title": "50 Lipa (Croatian text)",
+        "wikidata": "Q111475514"
     },
     {
+        "country": "Ecuador",
+        "country_qid": "Q736",
+        "face_value": 0.2,
+        "id": "9470",
+        "min_year": 1974,
+        "obverse": "https://en.numista.com/catalogue/photos/equateur/476-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/equateur/477-180.jpg",
+        "title": "20 Centavos",
+        "wikidata": "Q111012981"
+    },
+    {
+        "country": "France",
+        "country_qid": "Q142",
+        "face_value": 0.5,
+        "id": "5",
+        "min_year": 1964,
+        "obverse": "https://en.numista.com/catalogue/photos/france/5607-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/france/5608-180.jpg",
+        "title": "\u00bd Franc (signature &quot;O. Roty&quot;)",
+        "wikidata": "Q110899547"
+    },
+    {
+        "country": "France",
+        "country_qid": "Q142",
+        "face_value": 5.0,
+        "id": "8",
+        "min_year": 1969,
+        "obverse": "https://en.numista.com/catalogue/photos/france/5f9dd414800e77.93186810-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/france/5f9dd414d40668.27338105-180.jpg",
+        "title": "5 Francs (signature \"O. Roty\")",
+        "wikidata": "Q110899524"
+    },
+    {
+        "country": "France",
+        "country_qid": "Q142",
+        "face_value": 2.0,
+        "id": "7",
+        "min_year": 1977,
+        "obverse": "https://en.numista.com/catalogue/photos/france/5f9dd37e4e2969.55690294-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/france/5f9dd37e92d7d2.97543737-180.jpg",
+        "title": "2 Francs",
+        "wikidata": "Q111462202"
+    },
+    {
+        "country": "French West Africa",
+        "country_qid": "Q210682",
+        "face_value": 10.0,
+        "id": "10057",
+        "min_year": 1957,
+        "obverse": "https://en.numista.com/catalogue/photos/aof/61f3fe0e8a6a64.71634581-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/aof/61f3fe0ec15999.85088788-180.jpg",
+        "title": "10 Francs Togo",
+        "wikidata": "Q110867832"
+    },
+    {
+        "country": "German Democratic Republic",
+        "country_qid": "Q16957",
+        "face_value": 0.5,
+        "id": "2032",
+        "min_year": 1958,
+        "obverse": "https://en.numista.com/catalogue/photos/ddr/19-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/ddr/20-180.jpg",
+        "title": "50 Pfennig",
+        "wikidata": "Q111462183"
+    },
+    {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 0.5,
+        "id": "2729",
+        "min_year": 1919,
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne-pre1945/5efadfad8b7e88.51543948-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne-pre1945/5efadfadef5959.04668588-180.jpg",
+        "title": "50 Pfennig",
+        "wikidata": "Q110899691"
+    },
+    {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 0.05,
         "id": "3424",
+        "min_year": 1949,
         "obverse": "https://en.numista.com/catalogue/photos/allemagne/2283-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/allemagne/2284-180.jpg",
-        "title": "5 Pfennig (Bank of German States)"
+        "title": "5 Pfennig (Bank of German States)",
+        "wikidata": "Q111475489"
     },
     {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 0.5,
+        "id": "1955",
+        "min_year": 1949,
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne/260-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne/259-180.jpg",
+        "title": "50 Pfennig",
+        "wikidata": "Q110899625"
+    },
+    {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 0.02,
+        "id": "852",
+        "min_year": 1950,
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne/5fd0b0f44d7398.44300713-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne/5fd0b0f4b79c24.48245212-180.jpg",
+        "title": "2 Pfennig (non-magnetic)",
+        "wikidata": "Q110981415"
+    },
+    {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 1.0,
+        "id": "846",
+        "min_year": 1950,
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne/2293-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne/2294-180.jpg",
+        "title": "1 Deutsche Mark",
+        "wikidata": "Q111080597"
+    },
+    {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 0.01,
         "id": "105",
+        "min_year": 2002,
         "obverse": "https://en.numista.com/catalogue/photos/allemagne/1383-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/allemagne/1384-180.jpg",
-        "title": "1 Euro Cent"
+        "title": "1 Euro Cent",
+        "wikidata": "Q111475485"
     },
     {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 0.02,
         "id": "106",
+        "min_year": 2002,
         "obverse": "https://en.numista.com/catalogue/photos/allemagne/61fcbada841871.31395888-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/allemagne/61fcbadb755495.73524562-180.jpg",
-        "title": "2 Euro Cent"
+        "title": "2 Euro Cent",
+        "wikidata": "Q111475486"
     },
     {
+        "country": "Germany",
+        "country_qid": "Q183",
+        "face_value": 0.05,
+        "id": "107",
+        "min_year": 2002,
+        "obverse": "https://en.numista.com/catalogue/photos/allemagne/61fde61bf27925.91167153-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/allemagne/61fde61ce40330.51779213-180.jpg",
+        "title": "5 Euro Cent",
+        "wikidata": "Q111475755"
+    },
+    {
+        "country": "Hong Kong",
+        "country_qid": "Q8646",
+        "face_value": 0.1,
+        "id": "1579",
+        "min_year": 1993,
+        "obverse": "https://en.numista.com/catalogue/photos/hong_kong/25-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/hong_kong/26-180.jpg",
+        "title": "10 Cents",
+        "wikidata": "Q111462142"
+    },
+    {
+        "country": "Hong Kong",
+        "country_qid": "Q8646",
+        "face_value": 1.0,
+        "id": "2118",
+        "min_year": 1994,
+        "obverse": "https://en.numista.com/catalogue/photos/hong_kong/582-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/hong_kong/583-180.jpg",
+        "title": "1 Dollar",
+        "wikidata": "Q111182724"
+    },
+    {
+        "country": "Hungary",
+        "country_qid": "Q28",
+        "face_value": 20.0,
         "id": "809",
+        "min_year": 1992,
         "obverse": "https://en.numista.com/catalogue/photos/hongrie/3846-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/hongrie/3847-180.jpg",
-        "title": "20 Forint"
+        "title": "20 Forint",
+        "wikidata": "Q111475508"
     },
     {
+        "country": "India",
+        "country_qid": "Q668",
+        "face_value": 1.0,
+        "id": "1609",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/inde/2311-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/inde/3165-180.jpg",
+        "title": "1 Rupee",
+        "wikidata": "Q111012728"
+    },
+    {
+        "country": "Israel",
+        "country_qid": "Q801",
+        "face_value": 0.025,
+        "id": "2034",
+        "min_year": 1949,
+        "obverse": "https://en.numista.com/catalogue/photos/israel/5f8b260c18a6d8.63239038-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/israel/5f8b260c4f8340.40084303-180.jpg",
+        "title": "25 Pruta",
+        "wikidata": "Q111475781"
+    },
+    {
+        "country": "Israel",
+        "country_qid": "Q801",
+        "face_value": 0.01,
+        "id": "977",
+        "min_year": 1960,
+        "obverse": "https://en.numista.com/catalogue/photos/israel/34-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/israel/35-180.jpg",
+        "title": "1 Agora",
+        "wikidata": "Q111079884"
+    },
+    {
+        "country": "Israel",
+        "country_qid": "Q801",
+        "face_value": 0.1,
         "id": "1231",
+        "min_year": 1960,
         "obverse": "https://en.numista.com/catalogue/photos/israel/2266-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/israel/2267-180.jpg",
-        "title": "10 Agorot"
+        "title": "10 Agorot",
+        "wikidata": "Q111475742"
     },
     {
+        "country": "Israel",
+        "country_qid": "Q801",
+        "face_value": 10.0,
+        "id": "2720",
+        "min_year": 1995,
+        "obverse": "https://en.numista.com/catalogue/photos/israel/863-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/israel/864-180.jpg",
+        "title": "10 New Sheqalim",
+        "wikidata": "Q111398779"
+    },
+    {
+        "country": "Italy",
+        "country_qid": "Q38",
+        "face_value": 100.0,
+        "id": "304",
+        "min_year": 1955,
+        "obverse": "https://en.numista.com/catalogue/photos/italie/5f8b3d7716d705.15931157-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/italie/5f8b3d77608e26.65875438-180.jpg",
+        "title": "100 Lire (large type)",
+        "wikidata": "Q110899489"
+    },
+    {
+        "country": "Italy",
+        "country_qid": "Q38",
+        "face_value": 100.0,
+        "id": "722",
+        "min_year": 1993,
+        "obverse": "https://en.numista.com/catalogue/photos/italie/5f99545db61048.91018691-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/italie/5f99545e08ffd3.84579769-180.jpg",
+        "title": "100 Lire",
+        "wikidata": "Q111475237"
+    },
+    {
+        "country": "Japan",
+        "country_qid": "Q17",
+        "face_value": 5.0,
+        "id": "929",
+        "min_year": 1959,
+        "obverse": "https://en.numista.com/catalogue/photos/japon/19-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/japon/20-180.jpg",
+        "title": "5 Yen - Sh\u014dwa (Gothic style)",
+        "wikidata": "Q110990598"
+    },
+    {
+        "country": "Japan",
+        "country_qid": "Q17",
+        "face_value": 50.0,
+        "id": "1026",
+        "min_year": 1967,
+        "obverse": "https://en.numista.com/catalogue/photos/japon/9-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/japon/10-180.jpg",
+        "title": "50 Yen - Sh\u014dwa",
+        "wikidata": "Q111182471"
+    },
+    {
+        "country": "Japan",
+        "country_qid": "Q17",
+        "face_value": 1.0,
+        "id": "983",
+        "min_year": 1989,
+        "obverse": "https://en.numista.com/catalogue/photos/japon/892-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/japon/893-180.jpg",
+        "title": "1 Yen - Heisei",
+        "wikidata": "Q110952229"
+    },
+    {
+        "country": "Japan",
+        "country_qid": "Q17",
+        "face_value": 100.0,
+        "id": "2121",
+        "min_year": 1989,
+        "obverse": "https://en.numista.com/catalogue/photos/japon/1081-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/japon/1082-180.jpg",
+        "title": "100 Yen - Heisei",
+        "wikidata": "Q110953757"
+    },
+    {
+        "country": "Malaysia",
+        "country_qid": "Q833",
+        "face_value": 0.01,
+        "id": "931",
+        "min_year": 1989,
+        "obverse": "https://en.numista.com/catalogue/photos/malaisie/535-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/malaisie/534-180.jpg",
+        "title": "1 Sen",
+        "wikidata": "Q111080648"
+    },
+    {
+        "country": "Malta",
+        "country_qid": "Q233",
+        "face_value": 1.0,
+        "id": "1784",
+        "min_year": 1986,
+        "obverse": "https://en.numista.com/catalogue/photos/malte/6059a7bf593725.03605752-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/malte/6059a7bfa789e7.62079533-180.jpg",
+        "title": "1 Lira",
+        "wikidata": "Q110862469"
+    },
+    {
+        "country": "Mexico",
+        "country_qid": "Q96",
+        "face_value": 0.01,
+        "id": "996",
+        "min_year": 1950,
+        "obverse": "https://en.numista.com/catalogue/photos/mexique/4403-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/mexique/4404-180.jpg",
+        "title": "1 Centavo",
+        "wikidata": "Q110989863"
+    },
+    {
+        "country": "Mexico",
+        "country_qid": "Q96",
+        "face_value": 0.5,
+        "id": "583",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/mexique/4301-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/mexique/4302-180.jpg",
+        "title": "50 Centavos (large type)",
+        "wikidata": "Q110990040"
+    },
+    {
+        "country": "Netherlands",
+        "country_qid": "Q55",
+        "face_value": 0.05,
+        "id": "663",
+        "min_year": 1950,
+        "obverse": "https://en.numista.com/catalogue/photos/pays-bas/2505-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/pays-bas/2506-180.jpg",
+        "title": "5 Cent - Juliana",
+        "wikidata": "Q111288488"
+    },
+    {
+        "country": "Netherlands Antilles",
+        "country_qid": "Q25227",
+        "face_value": 0.25,
+        "id": "2937",
+        "min_year": 1989,
+        "obverse": "https://en.numista.com/catalogue/photos/antilles_neerlandaises/704-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/antilles_neerlandaises/705-180.jpg",
+        "title": "25 Cents - Beatrix / Willem-Alexander",
+        "wikidata": "Q110990394"
+    },
+    {
+        "country": "Nigeria",
+        "country_qid": "Q1033",
+        "face_value": 0.1,
+        "id": "4461",
+        "min_year": 1973,
+        "obverse": "https://en.numista.com/catalogue/photos/nigeria/60674178c2cef9.69437850-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/nigeria/60674179113073.69203778-180.jpg",
+        "title": "10 Kobo",
+        "wikidata": "Q111226454"
+    },
+    {
+        "country": "Paraguay",
+        "country_qid": "Q733",
+        "face_value": 0.1,
+        "id": "5149",
+        "min_year": 1944,
+        "obverse": "https://en.numista.com/catalogue/photos/paraguay/605a7c859837b8.24980699-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/paraguay/605a7c85c54a63.06725006-180.jpg",
+        "title": "10 C\u00e9ntimos",
+        "wikidata": "Q111012755"
+    },
+    {
+        "country": "Paraguay",
+        "country_qid": "Q733",
+        "face_value": 5.0,
+        "id": "5155",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/paraguay/605ab56b89a585.50549232-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/paraguay/605ab4c0370a03.22949023-180.jpg",
+        "title": "5 Guaran\u00edes (FAO)",
+        "wikidata": "Q110899923"
+    },
+    {
+        "country": "People's Republic of China",
+        "country_qid": "Q148",
+        "face_value": 1.0,
+        "id": "667",
+        "min_year": 1991,
+        "obverse": "https://en.numista.com/catalogue/photos/chine/1748-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/chine/1749-180.jpg",
+        "title": "1 Yuan",
+        "wikidata": "Q110990422"
+    },
+    {
+        "country": "People's Republic of China",
+        "country_qid": "Q148",
+        "face_value": 1.0,
+        "id": "1588",
+        "min_year": 1999,
+        "obverse": "https://en.numista.com/catalogue/photos/chine/18-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/chine/19-180.jpg",
+        "title": "1 Yuan",
+        "wikidata": "Q111012748"
+    },
+    {
+        "country": "People's Republic of China",
+        "country_qid": "Q148",
+        "face_value": 0.1,
+        "id": "1223",
+        "min_year": 2005,
+        "obverse": "https://en.numista.com/catalogue/photos/chine/20-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/chine/21-180.jpg",
+        "title": "1 Jiao (magnetic)",
+        "wikidata": "Q111475047"
+    },
+    {
+        "country": "Peru",
+        "country_qid": "Q419",
+        "face_value": 0.01,
+        "id": "5418",
+        "min_year": 1950,
+        "obverse": "https://en.numista.com/catalogue/photos/perou/1211-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/perou/1212-180.jpg",
+        "title": "1 Centavo",
+        "wikidata": "Q110900073"
+    },
+    {
+        "country": "Poland",
+        "country_qid": "Q36",
+        "face_value": 0.02,
         "id": "525",
+        "min_year": 1990,
         "obverse": "https://en.numista.com/catalogue/photos/pologne/5ebaaefa7cc8c4.20261116-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/pologne/5ebaaefad715b0.20254560-180.jpg",
-        "title": "2 Grosze (non-magnetic)"
+        "title": "2 Grosze (non-magnetic)",
+        "wikidata": "Q111475594"
     },
     {
+        "country": "Poland",
+        "country_qid": "Q36",
+        "face_value": 1.0,
         "id": "520",
+        "min_year": 1990,
         "obverse": "https://en.numista.com/catalogue/photos/pologne/9315-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/pologne/9316-180.jpg",
-        "title": "1 Z\u0142oty"
+        "title": "1 Z\u0142oty",
+        "wikidata": "Q111475664"
     },
     {
+        "country": "Poland",
+        "country_qid": "Q36",
+        "face_value": 0.05,
         "id": "61644",
+        "min_year": 2013,
         "obverse": "https://en.numista.com/catalogue/photos/pologne/6226-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/pologne/6227-180.jpg",
-        "title": "5 Groszy (magnetic)"
+        "title": "5 Groszy (magnetic)",
+        "wikidata": "Q111475653"
     },
     {
+        "country": "Singapore",
+        "country_qid": "Q334",
+        "face_value": 0.05,
+        "id": "1675",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/singapour/1832-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/singapour/1833-180.jpg",
+        "title": "5 Cents (ribbon downwards)",
+        "wikidata": "Q111013025"
+    },
+    {
+        "country": "Singapore",
+        "country_qid": "Q334",
+        "face_value": 0.1,
+        "id": "1674",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/singapour/1826-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/singapour/1827-180.jpg",
+        "title": "10 Cents (ribbon downwards)",
+        "wikidata": "Q110987509"
+    },
+    {
+        "country": "Singapore",
+        "country_qid": "Q334",
+        "face_value": 0.2,
+        "id": "1673",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/singapour/20-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/singapour/21-180.jpg",
+        "title": "20 Cents (ribbon downwards)",
+        "wikidata": "Q110983964"
+    },
+    {
+        "country": "Singapore",
+        "country_qid": "Q334",
+        "face_value": 0.5,
+        "id": "1672",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/singapour/375-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/singapour/376-180.jpg",
+        "title": "50 Cents (ribbon downwards)",
+        "wikidata": "Q110984169"
+    },
+    {
+        "country": "Singapore",
+        "country_qid": "Q334",
+        "face_value": 1.0,
+        "id": "1665",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/singapour/373-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/singapour/374-180.jpg",
+        "title": "1 Dollar (ribbon downwards)",
+        "wikidata": "Q111182468"
+    },
+    {
+        "country": "South Africa",
+        "country_qid": "Q258",
+        "face_value": 0.2,
+        "id": "916",
+        "min_year": 1965,
+        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1477-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1478-180.jpg",
+        "title": "20 Cents (Afrikaans Legend - SUID-AFRIKA)",
+        "wikidata": "Q111473615"
+    },
+    {
+        "country": "South Africa",
+        "country_qid": "Q258",
+        "face_value": 0.2,
         "id": "1787",
+        "min_year": 1970,
         "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/25-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/26-180.jpg",
-        "title": "20 Cents (SUID-AFRIKA - SOUTH AFRICA)"
+        "title": "20 Cents (SUID-AFRIKA - SOUTH AFRICA)",
+        "wikidata": "Q111475578"
     },
     {
+        "country": "South Africa",
+        "country_qid": "Q258",
+        "face_value": 0.5,
+        "id": "1786",
+        "min_year": 1970,
+        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/5ee395ab163470.18927121-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/5ee395abbd73d6.60380644-180.jpg",
+        "title": "50 Cents (SOUTH AFRICA - SUID-AFRIKA)",
+        "wikidata": "Q111475747"
+    },
+    {
+        "country": "South Africa",
+        "country_qid": "Q258",
+        "face_value": 0.1,
+        "id": "6600",
+        "min_year": 2008,
+        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1724-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1725-180.jpg",
+        "title": "10 Cents (Zulu Legend - iNingizimu Afrika)",
+        "wikidata": "Q111398524"
+    },
+    {
+        "country": "South Africa",
+        "country_qid": "Q258",
+        "face_value": 0.2,
+        "id": "25310",
+        "min_year": 2009,
+        "obverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1481-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/afrique_du_sud/1482-180.jpg",
+        "title": "20 Cents (Venda Legend - Afurika Tshipembe)",
+        "wikidata": "Q110990428"
+    },
+    {
+        "country": "South Korea",
+        "country_qid": "Q884",
+        "face_value": 50.0,
+        "id": "1653",
+        "min_year": 1983,
+        "obverse": "https://en.numista.com/catalogue/photos/coree_du_sud/5e30f32bb1c2f9.91714435-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/coree_du_sud/5e30f32c5a5bc7.66736018-180.jpg",
+        "title": "50 Won (FAO)",
+        "wikidata": "Q111381622"
+    },
+    {
+        "country": "Spain",
+        "country_qid": "Q29",
+        "face_value": 0.5,
+        "id": "792",
+        "min_year": 1966,
+        "obverse": "https://en.numista.com/catalogue/photos/espagne/2392-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/espagne/2393-180.jpg",
+        "title": "50 Centimos - Francisco Franco",
+        "wikidata": "Q110899957"
+    },
+    {
+        "country": "Spain",
+        "country_qid": "Q29",
+        "face_value": 5.0,
         "id": "1149",
+        "min_year": 1996,
         "obverse": "https://en.numista.com/catalogue/photos/espagne/230-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/espagne/206-180.jpg",
-        "title": "5 Pesetas (La Rioja)"
+        "title": "5 Pesetas (La Rioja)",
+        "wikidata": "Q111475501"
     },
     {
+        "country": "Switzerland",
+        "country_qid": "Q39",
+        "face_value": 1.0,
+        "id": "185",
+        "min_year": 1968,
+        "obverse": "https://en.numista.com/catalogue/photos/suisse/1142-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/suisse/1143-180.jpg",
+        "title": "1 Franc (Helvetia standing; copper-nickel)",
+        "wikidata": "Q110990027"
+    },
+    {
+        "country": "Switzerland",
+        "country_qid": "Q39",
+        "face_value": 2.0,
+        "id": "189",
+        "min_year": 1968,
+        "obverse": "https://en.numista.com/catalogue/photos/suisse/1506-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/suisse/1507-180.jpg",
+        "title": "2 Francs (Helvetia standing; copper-nickel)",
+        "wikidata": "Q111475070"
+    },
+    {
+        "country": "Tonga",
+        "country_qid": "Q678",
+        "face_value": 0.05,
+        "id": "74572",
+        "min_year": 2015,
+        "obverse": "https://en.numista.com/catalogue/photos/tonga/319-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/tonga/320-180.jpg",
+        "title": "5 Seniti - Tupou VI",
+        "wikidata": "Q111473631"
+    },
+    {
+        "country": "Turkey",
+        "country_qid": "Q43",
+        "face_value": 0.1,
         "id": "5197",
+        "min_year": 1958,
         "obverse": "https://en.numista.com/catalogue/photos/turquie/2586-180.jpg",
         "reverse": "https://en.numista.com/catalogue/photos/turquie/2587-180.jpg",
-        "title": "10 Kuru\u015f"
+        "title": "10 Kuru\u015f",
+        "wikidata": "Q111475529"
+    },
+    {
+        "country": "Turkey",
+        "country_qid": "Q43",
+        "face_value": 1.0,
+        "id": "1341",
+        "min_year": 1959,
+        "obverse": "https://en.numista.com/catalogue/photos/turquie/56-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/turquie/57-180.jpg",
+        "title": "1 Lira",
+        "wikidata": "Q111013123"
+    },
+    {
+        "country": "Turkey",
+        "country_qid": "Q43",
+        "face_value": 10000.0,
+        "id": "1326",
+        "min_year": 1994,
+        "obverse": "https://en.numista.com/catalogue/photos/turquie/16-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/turquie/17-180.jpg",
+        "title": "10 000 Lira",
+        "wikidata": "Q111226432"
+    },
+    {
+        "country": "United States of America",
+        "country_qid": "Q30",
+        "face_value": 0.1,
+        "id": "53",
+        "min_year": 1965,
+        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/5226-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/5225-180.jpg",
+        "title": "1 Dime &quot;Roosevelt Dime&quot;",
+        "wikidata": "Q110984048"
+    },
+    {
+        "country": "United States of America",
+        "country_qid": "Q30",
+        "face_value": 0.25,
+        "id": "608",
+        "min_year": 1999,
+        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/4864-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/4865-180.jpg",
+        "title": "\u00bc Dollar &quot;Washington Quarter&quot; (Connecticut)",
+        "wikidata": "Q111475040"
+    },
+    {
+        "country": "United States of America",
+        "country_qid": "Q30",
+        "face_value": 0.25,
+        "id": "607",
+        "min_year": 1999,
+        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/4863-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/4862-180.jpg",
+        "title": "\u00bc Dollar &quot;Washington Quarter&quot; (Georgia)",
+        "wikidata": "Q111473654"
+    },
+    {
+        "country": "United States of America",
+        "country_qid": "Q30",
+        "face_value": 0.25,
+        "id": "69633",
+        "min_year": 2015,
+        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/5018-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/5019-180.jpg",
+        "title": "\u00bc Dollar &#039;&#039;Washington Quarter&#039;&#039; (Blue Ridge Parkway, North Carolina)",
+        "wikidata": "Q110862976"
+    },
+    {
+        "country": "Uruguay",
+        "country_qid": "Q77",
+        "face_value": 5.0,
+        "id": "3808",
+        "min_year": 1969,
+        "obverse": "https://en.numista.com/catalogue/photos/uruguay/1110-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/uruguay/1111-180.jpg",
+        "title": "5 Pesos",
+        "wikidata": "Q110899845"
+    },
+    {
+        "country": "Uruguay",
+        "country_qid": "Q77",
+        "face_value": 1.0,
+        "id": "4264",
+        "min_year": 1976,
+        "obverse": "https://en.numista.com/catalogue/photos/uruguay/239-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/uruguay/240-180.jpg",
+        "title": "1 Nuevo Peso",
+        "wikidata": "Q111147351"
+    },
+    {
+        "country": "West African Economic and Monetary Union",
+        "country_qid": "Q1929699",
+        "face_value": 10.0,
+        "id": "3401",
+        "min_year": 1966,
+        "obverse": "https://en.numista.com/catalogue/photos/bceao/5f76907ab01315.07636052-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bceao/5f76907b24bc50.79576615-180.jpg",
+        "title": "10 Francs CFA",
+        "wikidata": "Q111294671"
     }
 ]
