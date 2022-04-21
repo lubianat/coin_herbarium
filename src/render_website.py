@@ -25,30 +25,30 @@ def main():
     coin_images_path = data_path / "coin_images.json"
     coin_images = json.loads(coin_images_path.read_text())
 
-    p = docs_path / "all.html.jinja"
+    path = docs_path / "all.html.jinja"
     page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
-        p.read_text()
+        path.read_text()
     )
 
     webpage = page_template.render(coins=coin_images, title="All coins")
 
-    p = docs_path / "all.html"
-    p.write_text(webpage)
+    path = docs_path / "all.html"
+    path.write_text(webpage)
 
-    p = docs_path / "index.html.jinja"
+    path = docs_path / "index.html.jinja"
     page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
-        p.read_text()
+        path.read_text()
     )
 
     webpage = page_template.render()
 
-    p = docs_path / "index.html"
-    p.write_text(webpage)
+    path = docs_path / "index.html"
+    path.write_text(webpage)
 
     # Render By Family pages
 
-    p = queries_path / "get_families.rq"
-    query = p.read_text()
+    path = queries_path / "get_families.rq"
+    query = path.read_text()
     families_df = wikidata2df(query)
 
     plant_families = []
@@ -67,14 +67,14 @@ def main():
             }
         )
 
-    p = docs_path / "family.html.jinja"
+    path = docs_path / "family.html.jinja"
     page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
-        p.read_text()
+        path.read_text()
     )
     webpage = page_template.render(plant_families=plant_families)
 
-    p = docs_path / "family.html"
-    p.write_text(webpage)
+    path = docs_path / "family.html"
+    path.write_text(webpage)
 
     for plant_family in plant_families:
         generate_plant_html(
@@ -85,8 +85,8 @@ def main():
         )
 
     # Render By Country pages
-    p = queries_path / "get_countries.rq"
-    query = p.read_text()
+    path = queries_path / "get_countries.rq"
+    query = path.read_text()
 
     countries_df = wikidata2df(query)
     countries = []
@@ -105,17 +105,17 @@ def main():
             }
         )
 
-    p = docs_path / "country.html.jinja"
+    path = docs_path / "country.html.jinja"
     page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
-        p.read_text()
+        path.read_text()
     )
     webpage = page_template.render(countries=countries)
-    p = docs_path / "country.html"
-    p.write_text(webpage)
+    path = docs_path / "country.html"
+    path.write_text(webpage)
 
-    p = docs_path / "country.html.jinja"
+    path = docs_path / "country.html.jinja"
     page_template = Environment(loader=FileSystemLoader("docs/")).from_string(
-        p.read_text()
+        path.read_text()
     )
     webpage = page_template.render(plant_families=plant_families)
 

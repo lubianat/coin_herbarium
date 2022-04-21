@@ -209,6 +209,17 @@
         "wikidata": "Q111013059"
     },
     {
+        "country": "Canada",
+        "country_qid": "Q16",
+        "face_value": 0.01,
+        "id": "427",
+        "min_year": 1982,
+        "obverse": "https://en.numista.com/catalogue/photos/canada/2495-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/canada/2497-180.jpg",
+        "title": "1 Cent - Elizabeth II (2nd portrait, 12 sided)",
+        "wikidata": "Q111583822"
+    },
+    {
         "country": "Chile",
         "country_qid": "Q298",
         "face_value": 100.0,
@@ -484,6 +495,17 @@
         "wikidata": "Q111012728"
     },
     {
+        "country": "Indonesia",
+        "country_qid": "Q252",
+        "face_value": 500.0,
+        "id": "6666",
+        "min_year": 1997,
+        "obverse": "https://en.numista.com/catalogue/photos/indonesie/367-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/indonesie/368-180.jpg",
+        "title": "500 Rupiah",
+        "wikidata": "Q111552589"
+    },
+    {
         "country": "Israel",
         "country_qid": "Q801",
         "face_value": 0.025,
@@ -684,6 +706,17 @@
     {
         "country": "Paraguay",
         "country_qid": "Q733",
+        "face_value": 1.0,
+        "id": "827",
+        "min_year": 1975,
+        "obverse": "https://en.numista.com/catalogue/photos/paraguay/60660d3bd677b5.70712011-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/paraguay/60660d3c42c9f6.29203914-180.jpg",
+        "title": "1 Guaran\u00ed",
+        "wikidata": "Q111475795"
+    },
+    {
+        "country": "Paraguay",
+        "country_qid": "Q733",
         "face_value": 5.0,
         "id": "5155",
         "min_year": 1992,
@@ -768,6 +801,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/pologne/6227-180.jpg",
         "title": "5 Groszy (magnetic)",
         "wikidata": "Q111475653"
+    },
+    {
+        "country": "Singapore",
+        "country_qid": "Q334",
+        "face_value": 0.1,
+        "id": "1671",
+        "min_year": 1967,
+        "obverse": "https://en.numista.com/catalogue/photos/singapour/366-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/singapour/365-180.jpg",
+        "title": "10 Cents",
+        "wikidata": "Q111583830"
     },
     {
         "country": "Singapore",
@@ -935,6 +979,17 @@
         "wikidata": "Q111475070"
     },
     {
+        "country": "Taiwan",
+        "country_qid": "Q865",
+        "face_value": 1.0,
+        "id": "1274",
+        "min_year": 1960,
+        "obverse": "https://en.numista.com/catalogue/photos/taiwan/252-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/taiwan/253-180.jpg",
+        "title": "1 New Dollar",
+        "wikidata": "Q111677977"
+    },
+    {
         "country": "Tonga",
         "country_qid": "Q678",
         "face_value": 0.05,
@@ -979,6 +1034,17 @@
         "wikidata": "Q111226432"
     },
     {
+        "country": "Turkey",
+        "country_qid": "Q43",
+        "face_value": 0.01,
+        "id": "7046",
+        "min_year": 2009,
+        "obverse": "https://en.numista.com/catalogue/photos/turquie/147-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/turquie/148-180.jpg",
+        "title": "1 Kuru\u015f",
+        "wikidata": "Q111583856"
+    },
+    {
         "country": "United States of America",
         "country_qid": "Q30",
         "face_value": 0.1,
@@ -1021,6 +1087,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/etats-unis/5019-180.jpg",
         "title": "\u00bc Dollar &#039;&#039;Washington Quarter&#039;&#039; (Blue Ridge Parkway, North Carolina)",
         "wikidata": "Q110862976"
+    },
+    {
+        "country": "Uruguay",
+        "country_qid": "Q77",
+        "face_value": 10.0,
+        "id": "980",
+        "min_year": 1968,
+        "obverse": "https://en.numista.com/catalogue/photos/uruguay/906-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/uruguay/907-180.jpg",
+        "title": "10 Pesos",
+        "wikidata": "Q111678000"
     },
     {
         "country": "Uruguay",
