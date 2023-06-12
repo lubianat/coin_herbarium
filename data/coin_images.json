@@ -46,6 +46,17 @@
     {
         "country": "Austria",
         "country_qid": "Q40",
+        "face_value": 1.0,
+        "id": "740",
+        "min_year": 1959,
+        "obverse": "https://en.numista.com/catalogue/photos/autriche/2861-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/autriche/2860-180.jpg",
+        "title": "1 Schilling",
+        "wikidata": "Q111679203"
+    },
+    {
+        "country": "Austria",
+        "country_qid": "Q40",
         "face_value": 0.01,
         "id": "57",
         "min_year": 2002,
@@ -75,6 +86,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/autriche/2788-180.jpg",
         "title": "5 Euro Cent",
         "wikidata": "Q110990607"
+    },
+    {
+        "country": "Bahrain",
+        "country_qid": "Q398",
+        "face_value": 0.005,
+        "id": "46719",
+        "min_year": 2010,
+        "obverse": "https://en.numista.com/catalogue/photos/bahrein/140-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/bahrein/141-180.jpg",
+        "title": "5 Fils - Hamad (magnetic; 2nd type)",
+        "wikidata": "Q111708946"
     },
     {
         "country": "Bahrain",
@@ -222,6 +244,17 @@
     {
         "country": "Chile",
         "country_qid": "Q298",
+        "face_value": 10.0,
+        "id": "1007",
+        "min_year": 1974,
+        "obverse": "https://en.numista.com/catalogue/photos/chili/1590-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/chili/1591-180.jpg",
+        "title": "10 Escudos",
+        "wikidata": "Q111679213"
+    },
+    {
+        "country": "Chile",
+        "country_qid": "Q298",
         "face_value": 100.0,
         "id": "2302",
         "min_year": 1981,
@@ -229,6 +262,50 @@
         "reverse": "https://en.numista.com/catalogue/photos/chili/903-180.jpg",
         "title": "100 Pesos",
         "wikidata": "Q111475240"
+    },
+    {
+        "country": "Chile",
+        "country_qid": "Q298",
+        "face_value": 500.0,
+        "id": "2722",
+        "min_year": 2000,
+        "obverse": "https://en.numista.com/catalogue/photos/chili/898-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/chili/899-180.jpg",
+        "title": "500 Pesos",
+        "wikidata": "Q111709092"
+    },
+    {
+        "country": "Colombia",
+        "country_qid": "Q739",
+        "face_value": 0.05,
+        "id": "5571",
+        "min_year": 1967,
+        "obverse": "https://en.numista.com/catalogue/photos/colombie/5f54b6297af087.92249416-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/colombie/5f54b62acde1b9.21625549-180.jpg",
+        "title": "5 Centavos",
+        "wikidata": "Q111708875"
+    },
+    {
+        "country": "Colombia",
+        "country_qid": "Q739",
+        "face_value": 0.2,
+        "id": "5429",
+        "min_year": 1971,
+        "obverse": "https://en.numista.com/catalogue/photos/colombie/1383-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/colombie/1384-180.jpg",
+        "title": "20 Centavos (no gap in legend; small letters)",
+        "wikidata": "Q111709210"
+    },
+    {
+        "country": "Colombia",
+        "country_qid": "Q739",
+        "face_value": 500.0,
+        "id": "2432",
+        "min_year": 1993,
+        "obverse": "https://en.numista.com/catalogue/photos/colombie/1287-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/colombie/1288-180.jpg",
+        "title": "500 Pesos",
+        "wikidata": "Q111709192"
     },
     {
         "country": "Colombia",
@@ -317,6 +394,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/france/5608-180.jpg",
         "title": "\u00bd Franc (signature &quot;O. Roty&quot;)",
         "wikidata": "Q110899547"
+    },
+    {
+        "country": "France",
+        "country_qid": "Q142",
+        "face_value": 20.0,
+        "id": "3754",
+        "min_year": 1967,
+        "obverse": "https://en.numista.com/catalogue/photos/polynesie_francaise/5eea66ee640ce2.14022680-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/polynesie_francaise/5eea66eec07c80.45886042-180.jpg",
+        "title": "20 Francs (without IEOM)",
+        "wikidata": "Q111679491"
     },
     {
         "country": "France",
@@ -451,6 +539,17 @@
         "wikidata": "Q111475755"
     },
     {
+        "country": "Ghana",
+        "country_qid": "Q117",
+        "face_value": 0.2,
+        "id": "6601",
+        "min_year": 1967,
+        "obverse": "https://en.numista.com/catalogue/photos/ghana/5fcfed29eb9110.28178302-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/ghana/5fcfed2aa65a75.48873306-180.jpg",
+        "title": "20 Pesewas",
+        "wikidata": "Q111709163"
+    },
+    {
         "country": "Hong Kong",
         "country_qid": "Q8646",
         "face_value": 0.1,
@@ -493,6 +592,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/inde/3165-180.jpg",
         "title": "1 Rupee",
         "wikidata": "Q111012728"
+    },
+    {
+        "country": "India",
+        "country_qid": "Q668",
+        "face_value": 5.0,
+        "id": "24943",
+        "min_year": 2011,
+        "obverse": "https://en.numista.com/catalogue/photos/inde/2577-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/inde/3070-180.jpg",
+        "title": "5 Rupees",
+        "wikidata": "Q111692308"
     },
     {
         "country": "Indonesia",
@@ -548,6 +658,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/israel/864-180.jpg",
         "title": "10 New Sheqalim",
         "wikidata": "Q111398779"
+    },
+    {
+        "country": "Italy",
+        "country_qid": "Q38",
+        "face_value": 0.2,
+        "id": "1958",
+        "min_year": 1908,
+        "obverse": "https://en.numista.com/catalogue/photos/italie/1992-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/italie/1993-180.jpg",
+        "title": "20 Centesimi - Vittorio Emanuele III",
+        "wikidata": "Q111692248"
     },
     {
         "country": "Italy",
@@ -616,6 +737,17 @@
         "wikidata": "Q110953757"
     },
     {
+        "country": "Laos",
+        "country_qid": "Q819",
+        "face_value": 0.5,
+        "id": "5532",
+        "min_year": 1980,
+        "obverse": "https://en.numista.com/catalogue/photos/laos/25-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/laos/26-180.jpg",
+        "title": "50 Att",
+        "wikidata": "Q111709277"
+    },
+    {
         "country": "Malaysia",
         "country_qid": "Q833",
         "face_value": 0.01,
@@ -625,6 +757,28 @@
         "reverse": "https://en.numista.com/catalogue/photos/malaisie/534-180.jpg",
         "title": "1 Sen",
         "wikidata": "Q111080648"
+    },
+    {
+        "country": "Malaysia",
+        "country_qid": "Q833",
+        "face_value": 0.1,
+        "id": "1656",
+        "min_year": 1989,
+        "obverse": "https://en.numista.com/catalogue/photos/malaisie/8-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/malaisie/7-180.jpg",
+        "title": "10 Sen - Agong",
+        "wikidata": "Q111679580"
+    },
+    {
+        "country": "Malaysia",
+        "country_qid": "Q833",
+        "face_value": 0.05,
+        "id": "23730",
+        "min_year": 2011,
+        "obverse": "https://en.numista.com/catalogue/photos/malaisie/758-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/malaisie/803-180.jpg",
+        "title": "5 Sen",
+        "wikidata": "Q111709142"
     },
     {
         "country": "Malta",
@@ -647,6 +801,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/mexique/4404-180.jpg",
         "title": "1 Centavo",
         "wikidata": "Q110989863"
+    },
+    {
+        "country": "Mexico",
+        "country_qid": "Q96",
+        "face_value": 0.05,
+        "id": "580",
+        "min_year": 1992,
+        "obverse": "https://en.numista.com/catalogue/photos/mexique/2906-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/mexique/2907-180.jpg",
+        "title": "5 Centavos",
+        "wikidata": "Q111692319"
     },
     {
         "country": "Mexico",
@@ -1045,6 +1210,17 @@
         "wikidata": "Q111583856"
     },
     {
+        "country": "Uganda",
+        "country_qid": "Q1036",
+        "face_value": 1.0,
+        "id": "2112",
+        "min_year": 1987,
+        "obverse": "https://en.numista.com/catalogue/photos/ouganda/403-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/ouganda/404-180.jpg",
+        "title": "1 Shilling",
+        "wikidata": "Q111679496"
+    },
+    {
         "country": "United States of America",
         "country_qid": "Q30",
         "face_value": 0.1,
@@ -1054,6 +1230,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/etats-unis/5225-180.jpg",
         "title": "1 Dime &quot;Roosevelt Dime&quot;",
         "wikidata": "Q110984048"
+    },
+    {
+        "country": "United States of America",
+        "country_qid": "Q30",
+        "face_value": 1.0,
+        "id": "3548",
+        "min_year": 1979,
+        "obverse": "https://en.numista.com/catalogue/photos/etats-unis/1288-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/etats-unis/1289-180.jpg",
+        "title": "1 Dollar &quot;Susan B. Anthony Dollar&quot;",
+        "wikidata": "Q111692316"
     },
     {
         "country": "United States of America",
@@ -1120,6 +1307,17 @@
         "reverse": "https://en.numista.com/catalogue/photos/uruguay/240-180.jpg",
         "title": "1 Nuevo Peso",
         "wikidata": "Q111147351"
+    },
+    {
+        "country": "Uruguay",
+        "country_qid": "Q77",
+        "face_value": 100.0,
+        "id": "7550",
+        "min_year": 1989,
+        "obverse": "https://en.numista.com/catalogue/photos/uruguay/492-180.jpg",
+        "reverse": "https://en.numista.com/catalogue/photos/uruguay/493-180.jpg",
+        "title": "100 Nuevos Pesos",
+        "wikidata": "Q111708878"
     },
     {
         "country": "West African Economic and Monetary Union",
